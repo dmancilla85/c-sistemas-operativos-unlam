@@ -1,0 +1,13 @@
+a. ¿Es consistente el resultado entre las distintas ejecuciones? Es decir, ¿siempre se llega al mismo nivel?
+
+No siempre se llega al mismo nivel. Depende del tiempo S y E que ingrese por parametros.
+
+b. ¿La cantidad de procesos de un nivel dado es siempre la misma?
+
+Si. Siempre es la misma.
+
+c. Indique sus conclusiones al respecto, del porqué del comportamiento observado.
+
+Los niveles pueden variar segun los tiempos ingresados por parametro.
+Si el tiempo S es mayor y el tiempo E es bajo, la cantidad de niveles va a aumentar considerablemente.
+Si el tiempo E es mayor, el proceso padre va a dormir mas tiempo y por lo tanto va a haber menor cantidad de niveles creados.
